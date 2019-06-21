@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: lightpink;
+}
+header{
+    background-image: url("./background-header.png");
+    background-position-x: -6px;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.144) 0px 0px 30px 3px;
+}
+header h1{
+    font-family: 'Mali', cursive;
+    color: white;
+    text-shadow: 2px 2px lightpink;
+    background: rgba(135, 206, 250, 0.712);
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: lightskyblue 0px 0px 30px 5px;
+    text-align: center;
+}
+
+#cardapio{
+    margin: 0 auto;
+    width: 80vw;
+    /* height: 70vh; */
+    background-color: rgb(247, 247, 247);
+    box-shadow: rgba(135, 206, 250, 0.527) 0px 0px 30px;
+}
+.itemCardapio{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Quicksand', sans-serif;
+}
+.itemCardapio div{
+    margin: 8px;
+}
